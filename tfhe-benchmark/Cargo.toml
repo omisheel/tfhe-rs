@@ -144,6 +144,30 @@ path = "benches/core_crypto/pbs128_bench.rs"
 harness = false
 required-features = ["shortint", "internal-keycache"]
 
+[[bench]]
+name = "blind-rotate-bench"
+path = "benches/core_crypto/blind_rotate_bench.rs"
+harness = false
+required-features = ["shortint", "internal-keycache"]
+
+[[bench]]
+name = "blind-rotate-test"
+path = "benches/core_crypto/blind_rotate_test.rs"
+harness = false
+required-features = ["shortint", "internal-keycache"]
+
+[[bench]]
+name = "blind-rotate-tfhe-lib"
+path = "benches/core_crypto/blind_rotate_tfhe_lib.rs"
+harness = false
+required-features = ["shortint", "internal-keycache"]
+
+[[bench]]
+name = "external-product-bench"
+path = "benches/core_crypto/external_product_bench.rs"
+harness = false
+required-features = ["shortint", "internal-keycache"]
+
 [[bin]]
 name = "boolean_key_sizes"
 path = "src/bin/boolean_key_sizes.rs"
